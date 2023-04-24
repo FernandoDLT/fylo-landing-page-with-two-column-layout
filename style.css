@@ -116,6 +116,12 @@ button {
    margin-left: 10px;
 }
 
+button:hover {
+   color: #fff;
+   background-color: hsl(224, 93%, 64%);
+   cursor: pointer;
+}
+
 .light-blueish {
    background-color: hsl(240, 75%, 98%);
    margin-top: 100px;
@@ -164,8 +170,13 @@ button {
 }
 
 .user-info h4 {
+   font-size: 16px;
    font-weight: 700;
    margin: 0;
+}
+
+.user-info small {
+   font-size: 12px;
 }
 
 /* Blueish */ 
@@ -212,17 +223,18 @@ footer ul li img {
 }
 
 footer ul li { /* add a or no? */
-   margin-bottom: 20px;  /* color: #fff; */
+   margin-bottom: 20px;  
+}
+
+footer ul li a {
+   color: #fff;
+   text-decoration: none;
 }
 
 footer .social-media {
    display: flex;
    align-items: center;
    justify-content: center;
-}
-
-footer .social-media img {
-   color: red;
 }
 
 footer .circle {
